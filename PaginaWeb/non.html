@@ -8,11 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <style>
         body {
-          background-image: url('fondo.png');
-          background-repeat: no-repeat;
+          background-color: black !important;
         }
-        </style> 
+        </style>
 </head>
+
     <header>    
         <div class="logo">
             <a href="non.html">
@@ -24,11 +24,80 @@
             <a href="Alquiler.html">Reservas</a>
             <a href="#">DJ´S</a>
           </nav>
-
     </header>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <style>
     </style>
+
+
+<div class="slideshow" id="slideshow"></div>
+
+<script>
+  const images = ["slide1.jpeg", "fondo3.jpeg", "fondo.png", "fondo2.png"];
+  let index = 0;
+  const slideshow = document.getElementById("slideshow");
+
+  setInterval(() => {
+    slideshow.style.backgroundImage = `url(${images[index]})`;
+    index = (index + 1) % images.length;
+  }, 5000); // cambia cada 5 segundos
+</script>
+
+
+
+    
+    <div class="container my-4">
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-img-wrapper">
+              <img src="slide1.jpeg" class="card-img-top" alt="...">
+              <div class="card-img-overlay-custom">
+                DISFRUTA DE UNA NOCHE INOLVIDABLE
+              </div>
+            </div>
+            <div class="card-body colorS">
+              <h5 class="card-title"> </h5>
+              <p class="card-text raimbowS">RESERVA TU MESA PARA DISFRUTAR CON AMIGOS</p>
+              <a href="#" class="btn btn-primary">RESERVAR</a>
+            </div>
+          </div>
+        </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-img-wrapper">
+          <img src="slide1.jpeg" class="card-img-top" alt="...">
+          <div class="card-img-overlay-custom">
+            ESCUCHA TUS DJ FAVORITOS⚡⚡
+          </div>
+        </div>
+        <div class="card-body colorS">
+          <h5 class="card-title"> </h5>
+          <p class="card-text raimbowS">M</p>
+          <a href="#" class="btn btn-primary">Ir</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-img-wrapper">
+          <img src="slide1.jpeg" class="card-img-top" alt="...">
+          <div class="card-img-overlay-custom">
+            SACA BOTELLAS🍾🍾 
+          </div>
+        </div>
+        <div class="card-body colorS">
+          <h5 class="card-title"> </h5>
+          <p class="card-text raimbowS">SACA ESAS BOTELLAS PARA FANTASMEAR</p>
+          <a href="#" class="btn btn-primary">COMPRAR</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 
 
 </body>
