@@ -1,0 +1,55 @@
+
+
+        
+.nav-link {
+    color: rgb(255, 255, 255) !important; 
+}
+
+.nav-link:hover {
+    color: red !important;   /* Color cuando pasás el mouse por encima */
+}
+
+.textoNavbar {
+    font-size: 25px !important;
+}
+.logo{
+    height: 5%;
+}
+form{
+background-color:rgba(50, 50, 50, 0.5);
+height: 30%;
+color: rgb(255, 238, 0);
+width: 600px;
+padding: 20px;
+border-radius: 50px;
+margin: 150px auto !important;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #000;
+    border-bottom: 1px solid #444;
+  }
+
+  .logo img {
+    height: 50px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 25px;
+  }
+
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+
+  .nav-links a:hover {
+    color: #ff00cc; /* rosa neón */
+  }
