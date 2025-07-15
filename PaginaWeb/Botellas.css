@@ -1,0 +1,57 @@
+body{
+   background-image: url('fondo3.jpeg'); /* ya lo tenés */
+  background-size: cover;               /* 🔥 esto la estira bien */
+  background-position: center;          /* centra la imagen */
+  background-repeat: no-repeat;         /* que no se repita */
+  background-attachment: fixed;         /* opcional, para efecto paralax */
+  margin: 0;                             /* elimina márgenes por defecto */
+  min-height: 100vh;              
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: black;
+    border-bottom: 1px solid #444;
+  }
+
+  .logo img {
+    height: 50px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 25px;
+  }
+
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+
+  .nav-links a:hover {
+    color: #ff00cc; /* rosa neón */
+  }
+
+.container-bebidas{
+    width: 500px;
+    margin: 50px auto;
+}
+
+.fila-bebidas{
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.list-group {
+    --bs-list-group-bg: rgba(40, 40, 40, 0.5) !important;
+    color: green !important;
+  
+}
+.verde{
+  color: rgb(0, 255, 0) !important;
+}
