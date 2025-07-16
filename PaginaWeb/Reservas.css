@@ -1,9 +1,13 @@
- body {
-    background-size: 100%;
-    background-image: url('fondo2.png');
-    background-repeat: no-repeat;
- }
 
+body{
+  background-image: url('fondo3.jpeg'); /* ya lo tenés */
+ background-size: cover;               /* 🔥 esto la estira bien */
+ background-position: center;          /* centra la imagen */
+ background-repeat: no-repeat;         /* que no se repita */
+ background-attachment: fixed;         /* opcional, para efecto paralax */
+ margin: 0;                             /* elimina márgenes por defecto */
+ min-height: 100vh;              
+}
         
 .nav-link {
     color: rgb(255, 255, 255) !important; 
@@ -39,7 +43,7 @@ header {
   }
 
   .logo img {
-    height: 50px;
+    height: 75px;
   }
 
   .nav-links {
